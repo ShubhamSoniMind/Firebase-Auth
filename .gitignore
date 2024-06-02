@@ -1,0 +1,94 @@
+# React Native
+node_modules/
+# Dependencies
+package-lock.json
+yarn.lock
+
+# Android
+android/.gradle/
+android/app/build/
+android/app/release/
+android/local.properties
+android/.idea
+android/.cxx/
+android/captures/
+
+# iOS
+ios/Pods/
+ios/build/
+ios/DerivedData/
+ios/.idea/
+ios/.vscode/
+*.xcworkspace
+*.xcuserstate
+
+# Bundle output
+*.jsbundle
+
+# Misc
+.expo/
+.expo-shared/
+.vscode/
+.idea/
+*.log
+*.swp
+*.swo
+*.swn
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# MacOS
+.DS_Store
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Miscellaneous
+*.lock
+*.log
+*.tmp
+*.temp
+
+# React Native packager
+*.packager
+
+# Build outputs
+build/
+build/outputs/
+dist/
+dist/
+
+# Ignore Metro, haste, and watchman logs
+*.metro-bundler-cache
+*.haste_cache
+*.watchmanconfig
+
+# Jest
+coverage/
+jest/
+__tests__/coverage/
+*.test.js.snap
+*.test.ts.snap
+
+# IntelliJ
+.idea/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Expo
+.expo/
+.expo-shared/
+
+# Firebase
+firebase-debug.log
+
+# ESLint
+.eslintcache
